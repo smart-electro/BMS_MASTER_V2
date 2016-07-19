@@ -1,0 +1,71 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=Z:\Documents\08 Smart-Electro.net\GitHub\BMS_MASTER_V2\Software\PIC_project\can18xx8.o
+Folder=Intermediary
+DeviceName=PIC18F4580
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files\Microchip\xc8\v1.30\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|can18xx8.c|MyEvApp.c|BMS_Master_V2.1.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-O-
+TraceCmdString=
+DebugOptions=
+[File001]
+Location=Z:\Documents\08 Smart-Electro.net\GitHub\BMS_MASTER_V2\Software\PIC_project\MyEvApp.o
+Folder=Intermediary
+DeviceName=PIC18F4580
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files\Microchip\xc8\v1.30\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|can18xx8.c|MyEvApp.c|BMS_Master_V2.1.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File002]
+Location=Z:\Documents\08 Smart-Electro.net\GitHub\BMS_MASTER_V2\Software\PIC_project\BMS_Master_V2.1.o
+Folder=Intermediary
+DeviceName=PIC18F4580
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files\Microchip\xc8\v1.30\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|can18xx8.c|MyEvApp.c|BMS_Master_V2.1.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+TraceCmdString=
+DebugOptions=
+[File003]
+Location=Z:\Documents\08 Smart-Electro.net\GitHub\BMS_MASTER_V2\Software\PIC_project\BMS_Master.cof
+Folder=Output
+DeviceName=PIC18F4580
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Program Files\Microchip\xc8\v1.30\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|can18xx8.c|MyEvApp.c|BMS_Master_V2.1.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
+TraceCmdString=
+DebugOptions=
+[File004]
+Location=Z:\Documents\08 Smart-Electro.net\GitHub\BMS_MASTER_V2\Software\PIC_project\BMS_Master.hex
+Folder=Output
+DeviceName=PIC18F4580
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Program Files\Microchip\xc8\v1.30\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|can18xx8.c|MyEvApp.c|BMS_Master_V2.1.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=/o"$(BINDIR_)$(TARGETBASE).cof" /M"$(BINDIR_)$(TARGETBASE).map" /W
+TraceCmdString=
+DebugOptions=
+[TOOL_LOC_STAMPS]
+tool_loc{96C98149-AA1B-4CF9-B967-FAE79CAB663C}=C:\Program Files\Microchip\xc8\v1.30\bin\mplink.exe
+tool_loc{E56A1C86-9D32-4DF6-8C34-FE0388B1B644}=C:\Program Files\Microchip\xc8\v1.30\bin\mcc18.exe

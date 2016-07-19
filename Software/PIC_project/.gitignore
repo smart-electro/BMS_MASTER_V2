@@ -1,0 +1,9 @@
+*.pre
+*.o
+*.d
+*.obj
+*.lst
+*.rlf
+*.as
+*.err
+*.cmf
