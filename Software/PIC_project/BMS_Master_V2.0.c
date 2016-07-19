@@ -19,6 +19,8 @@
 // Modified: Feb 2014 Simon.grabar <simon.grabar@gmail.com>
 // -Updated header and comments
 // -Updated to support 32 slaves
+// Modified: Aug 2015 Simon.grabar <simon.grabar@gmail.com>
+// -added support for BT module and MyEvApp
 //
 
 // Application specific variable declarations
@@ -40,12 +42,13 @@
 // bits are in reverse order!!
 //unsigned long connectedCells=0b11011101110111011101110111011101; //simon
 //unsigned long connectedCells=0b00111011101110111011101110111011; //Uros No1 23cells
-unsigned long connectedCells=0b10111111101110111011101111111111; //Uros No2 27cells
+//unsigned long connectedCells=  0b00000000000000000000000010011001; //Uros No2 27cells
+unsigned long connectedCells=    0b10011001100110011001100110011001; //Boat 16 cells
 
 
 
 //numer of master unit. The number will be in CAN adress
-#define MASTER_NUMBER 2;
+#define MASTER_NUMBER 1;
 /*******************************************************/
 
 //config bits (fuses)
