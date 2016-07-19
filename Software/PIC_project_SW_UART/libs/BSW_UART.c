@@ -1,0 +1,16 @@
+#include "BSW_UART.h";
+#include <usart.h>
+
+uart_init(char time){
+
+	// Initialize USART
+	// (8MHz / 16 / 9600) -1 = 9615,3846153846153846153846153846Boud
+	// (8MHz / 16 / 1200) -1 = 1199,0407673860911270983213429257Boud
+	// USART_BRGH_LOW /46
+    OpenUSART( USART_TX_INT_OFF & USART_RX_INT_OFF & USART_ASYNCH_MODE & USART_EIGHT_BIT & USART_CONT_RX & USART_BRGH_LOW, 104);
+	// OpenUSART( USART_TX_INT_OFF & USART_RX_INT_OFF & USART_ASYNCH_MODE & USART_EIGHT_BIT & USART_CONT_RX & USART_BRGH_HIGH, 52);
+    //tx_cnt = 0;
+   // tx_send = 0;
+   // rx_cnt = 0;
+
+}

@@ -1,0 +1,15 @@
+/Build/
+/Temp/
+/build/
+/temp/
+*.d
+*.as
+*.rlf
+*.obj
+*.cmf
+*.hxl
+*.sdb
+*.map
+*.lst
+*.cof
+*.sym

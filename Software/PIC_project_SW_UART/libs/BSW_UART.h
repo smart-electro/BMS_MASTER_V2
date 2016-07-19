@@ -1,0 +1,1 @@
+uart_init(char time);
